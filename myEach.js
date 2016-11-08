@@ -2,7 +2,12 @@
 
 function myEach(arr, callback) {
   
-  //  CODE INSIDE HERE   //
+  console.log("myEach test");
+
+  for (i=0; i<arr.length; i++) {
+
+  	callback(arr[i],i,arr);
+  }
 
 }
 

@@ -3,8 +3,16 @@
 
 function myReduce(arr, callback) {
 
-//  CODE INSIDE HERE   //
+console.log("Shrinkray");
 
+for(var i = 1; i< arr.length; i++) {
+	
+	 arr[i] = arr[i-1] + arr [i];
+
+
+}
+var total = arr[i];
+return total;
 }
 
 /*
